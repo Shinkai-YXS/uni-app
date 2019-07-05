@@ -27,7 +27,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5885bc803dc108d7a02561561d60cc53a5f85071
 ## 项目介绍
 
 > `page.json` 小程序配置项，页面路由配置，小程序首屏默认加载 pages 中的第一项
