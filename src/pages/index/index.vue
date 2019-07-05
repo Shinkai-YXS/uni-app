@@ -3,17 +3,22 @@
     <image class="logo" src="/static/logo.png"></image>
     <view>
       <text class="title">5555{{title}}---{{url}}</text>
+      <view>{{userInfo.userName}}</view>
     </view>
   </view>
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
   export default {
     data() {
       return {
         title: 'yxs',
         url: this.$ENV.url
       }
+    },
+    computed: {
+      ...mapGetters(['userInfo'])
     },
     onLoad() {
       
