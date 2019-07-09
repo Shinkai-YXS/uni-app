@@ -31,7 +31,7 @@ const request = ({
           resolve(res.data)
         } else {
           console.log(ENV.url + url + ' 请求失败')
-          if (showError) {
+          if (disposeError) {
             resolve(res)
           } else {
             uni.showToast({
